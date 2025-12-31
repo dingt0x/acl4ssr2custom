@@ -20,6 +20,7 @@ payload:
   
   # AWS Services
   - DOMAIN-SUFFIX,api.aws
+  - DOMAIN-SUFFIX,awsstatic.com
   # - DOMAIN-SUFFIX,prod.telemetry.console.api.aws
   # - DOMAIN-SUFFIX,prod.pl.panorama.console.api.aws
   # - DOMAIN-SUFFIX,prod.pl.panorama.console.api.aws
