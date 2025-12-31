@@ -19,10 +19,10 @@ payload:
   - DOMAIN,x.com
   
   # AWS Services
-  - DOMAIN-SUFFIX,prod.telemetry.console.api.aws
-  - DOMAIN-SUFFIX,prod.pl.panorama.console.api.aws
   - DOMAIN-SUFFIX,api.aws
-  - DOMAIN-SUFFIX,prod.pl.panorama.console.api.aws
+  # - DOMAIN-SUFFIX,prod.telemetry.console.api.aws
+  # - DOMAIN-SUFFIX,prod.pl.panorama.console.api.aws
+  # - DOMAIN-SUFFIX,prod.pl.panorama.console.api.aws
   - DOMAIN-SUFFIX,prod.assets.shortbread.aws.dev
   - DOMAIN-SUFFIX,prod.pa.cdn.uis.awsstatic.com
   - DOMAIN-SUFFIX,prod.log.shortbread.aws.dev
