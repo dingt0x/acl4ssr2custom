@@ -1,0 +1,34 @@
+payload:
+  # Development Tools & Resources
+  - DOMAIN-SUFFIX,objective-see.org
+  - DOMAIN,objective-see.org
+  - DOMAIN,brew.sh
+  - DOMAIN-SUFFIX,brew.sh
+  - DOMAIN-SUFFIX,sublimetext.com
+  - DOMAIN,mirrors.edge.kernel.org
+  - DOMAIN-SUFFIX,vagrantcloud.com
+  - DOMAIN-SUFFIX,udemy.com
+  
+  # Remote Access & IDE
+  - DOMAIN,rustdesk.com
+  - DOMAIN-SUFFIX,rustdesk.com
+  - DOMAIN,plugins.jetbrains.com
+  - DOMAIN-SUFFIX,marketplace.jetbrains.com
+  
+  # Social Media
+  - DOMAIN,x.com
+  
+  # AWS Services
+  - DOMAIN-SUFFIX,prod.telemetry.console.api.aws
+  - DOMAIN-SUFFIX,prod.pl.panorama.console.api.aws
+  - DOMAIN-SUFFIX,api.aws
+  - DOMAIN-SUFFIX,prod.pl.panorama.console.api.aws
+  - DOMAIN-SUFFIX,prod.assets.shortbread.aws.dev
+  - DOMAIN-SUFFIX,prod.pa.cdn.uis.awsstatic.com
+  - DOMAIN-SUFFIX,prod.log.shortbread.aws.dev
+  - DOMAIN-SUFFIX,ctrl.prod.os.notifications.aws.dev
+  - DOMAIN-SUFFIX,signin.aws
+  - DOMAIN-SUFFIX,awsapps.com
+
+  # Clash Management
+  - DOMAIN-SUFFIX,clashverge.dev
