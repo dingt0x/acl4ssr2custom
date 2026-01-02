@@ -23,11 +23,11 @@ payload:
   - DOMAIN-SUFFIX,awsstatic.com
   - DOMAIN-SUFFIX,aws.a2z.com
   - DOMAIN-SUFFIX,prod.assets.shortbread.aws.dev
-  - DOMAIN-SUFFIX,prod.pa.cdn.uis.awsstatic.com
   - DOMAIN-SUFFIX,prod.log.shortbread.aws.dev
   - DOMAIN-SUFFIX,ctrl.prod.os.notifications.aws.dev
   - DOMAIN-SUFFIX,signin.aws
   - DOMAIN-SUFFIX,awsapps.com
+  - DOMAIN-SUFFIX,prod.pa.cdn.uis.awsstatic.com
 
   # Clash Management
   - DOMAIN-SUFFIX,clashverge.dev
