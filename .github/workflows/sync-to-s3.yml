@@ -1,0 +1,33 @@
+name: Sync Rules to S3
+
+on:
+  push:
+    branches:
+      - '**'  # 触发所有分支的 push 事件
+    paths:
+      - 'rules_in_s3/**'  # 只有 rules_in_s3 目录下的文件变更时才触发
+
+jobs:
+  sync-to-s3:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.D_AK }}
+          aws-secret-access-key: ${{ secrets.D_SK }}
+          aws-region: ap-northeast-1 
+
+      - name: Sync rules to S3
+        run: |
+          aws s3 sync rules_in_s3/ s3://dingt0x-clash-migrate/custom-rules/ \
+            --delete \
+            --no-progress
+        
+      - name: Display sync result
+        if: success()
+        run: echo "✅ Successfully synced rules to S3"
