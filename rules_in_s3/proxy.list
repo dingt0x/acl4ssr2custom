@@ -21,3 +21,6 @@ DOMAIN-SUFFIX,signin.aws
 DOMAIN-SUFFIX,awsapps.com
 DOMAIN-SUFFIX,prod.pa.cdn.uis.awsstatic.com
 DOMAIN-SUFFIX,clashverge.dev
+DOMAIN-SUFFIX,udemycdn.com
+DOMAIN-SUFFIX,sentry-cdn.com
+DOMAIN-SUFFIX,litix.io
