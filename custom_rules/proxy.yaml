@@ -31,3 +31,6 @@ payload:
 
   # Clash Management
   - DOMAIN-SUFFIX,clashverge.dev
+
+  # deepl
+  - DOMAIN-SUFFIX,deepl.com
