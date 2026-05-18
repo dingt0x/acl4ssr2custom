@@ -6,3 +6,4 @@ DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN,dns.google
 DOMAIN,ipwho.is
+IP-CIDR,162.159.207.0/24
