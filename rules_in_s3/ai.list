@@ -7,8 +7,8 @@ DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN-SUFFIX,browser-intake-us1-datadoghq.com
 DOMAIN-SUFFIX,browser-intake-us3-datadoghq.com
 DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
-browser-intake-datadoghq.com
+DOMAIN-SUFFIX,browser-intake-datadoghq.com
 DOMAIN,dns.google
 DOMAIN,ipwho.is
-IP-CIDR,74.125.0.0/16
-IP-CIDR,162.159.0.0/16
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,162.159.0.0/16,no-resolve
