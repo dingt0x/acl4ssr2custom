@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,browser-intake-us3-datadoghq.com
 DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
 DOMAIN-SUFFIX,kiro.dev
+DOMAIN-SUFFIX,aws.dev
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN,dns.google
 DOMAIN,ipwho.is
